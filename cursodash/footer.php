@@ -6,7 +6,7 @@ footer<footer class="footer">
         <!-- Copyright footer link MUST remain intact if you download free version. -->
         <!-- You can delete the links only if you purchased the pro or extended version. -->
         <!-- Purchase the pro or extended version with PHP version of this template: https://bootstrap24.com/template/nura-admin-4-free-bootstrap-admin-template -->
-        Powered by <a target="_blank" href="https://www.google.com" title="Dashboard"><b>Uchôa</b></a>
+        Uchôa <a target="_blank" href="https://www.google.com" title="Dashboard"><b>Uchôa</b></a>
     </span>
 </footer>
 
