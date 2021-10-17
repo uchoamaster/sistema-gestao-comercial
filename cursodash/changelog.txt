@@ -1,0 +1,23 @@
+Version: 4.1
+  - Initial release with Bootstrap v4.1
+
+Version: 4.2
+  - Updated to Bootstrap v.4.2 
+  - Added Select2 plugin
+  - Added Charts plugin
+	
+Version: 4.3	
+  - Updated to Bootstrap v.4.3
+  - Added Slider page
+
+Version: 4.4
+  - Updated to Bootstrap v.4.4
+  - Added Color Picker plugin
+  - Added Image Magnifier plugin
+
+Version: 4.5
+  - Updated to Bootstrap v.4.5
+
+Version: 4.6
+  - Updated to Bootstrap v.4.6
+
