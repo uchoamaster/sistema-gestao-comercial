@@ -251,6 +251,27 @@
 
                     </ul> -->
 
+                    <ul style="margin-top:30px;">
+                    <li class="submenu">
+                            <a href="#">
+                                <i class="fas fa-laptop"></i>
+                                <span> Agenda Telefônica </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="form_contact.php">Cadastrar Contato</a>
+                                    <a href="form_contact.php">Add Contact</a>
+                                </li>
+                                <li>
+                                    <a href="ui-buttons.html">Listar Contato</a>
+                                    <a href="ui-buttons.html">List Contacts</a>
+                                </li>
+                              
+                            </ul>
+                        </li>
+                    </ul>
+
                     <div class="clearfix"></div>
 
                 </div>
