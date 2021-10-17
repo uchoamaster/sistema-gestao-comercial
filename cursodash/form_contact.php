@@ -49,7 +49,7 @@
 
 								if(isset($_GET['msg'])) {?>
 									<div class="alert alert-success" role="alert">
-										Add contact with success! 
+										Usuário inserido com sucesso !
 									</div>
 								<?php }	?>
 								<form action="_insert_contacts.php" method="post">

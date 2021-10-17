@@ -38,7 +38,7 @@
 					<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 					<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
 
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-12 col-xl-12">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 						<div class="card mb-3">
 							<div class="card-header">
 								<h3><i class="far fa-check-square"></i> List Contacts</h3>
