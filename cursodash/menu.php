@@ -1,11 +1,11 @@
-        <!-- Left Sidebar -->
-        <div class="left main-sidebar">
+<!-- Left Sidebar -->
+<div class="left main-sidebar">
 
-            <div class="sidebar-inner leftscroll">
+    <div class="sidebar-inner leftscroll">
 
-                <div id="sidebar-menu">
+        <div id="sidebar-menu">
 
-                <!--    <ul>
+                 <!--   <ul>
                         <li class="submenu">
                             <a class="active" href="index.html">
                                 <i class="fas fa-bars"></i>
@@ -238,7 +238,7 @@
                                 </li>
                             </ul>
 
-                         
+                           
 
                             <li class="submenu">
                                 <a target="_blank" href="https://nura24.com">
@@ -251,34 +251,40 @@
 
                     </ul> -->
 
-                    <ul style="margin-top:30px;">
-                    <li class="submenu">
-                            <a href="#">
-                                <i class="fas fa-laptop"></i>
-                                <span> Agenda Telefônica </span>
-                                <span class="menu-arrow"></span>
-                            </a>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="form_contact.php">Cadastrar Contato</a>
-                                    <a href="form_contact.php">Add Contact</a>
-                                </li>
-                                <li>
-                                    <a href="ui-buttons.html">Listar Contato</a>
-                                    <a href="ui-buttons.html">List Contacts</a>
-                                </li>
-                              
-                            </ul>
-                        </li>
-                    </ul>
 
-                    <div class="clearfix"></div>
 
-                </div>
+
+                    <ul style="margin-top: 30px">
+
+                       <li class="submenu">
+                        <a href="#">
+                            <i class="fas fa-laptop"></i>
+                            <span> Agenda Telefônica </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="form_contact.php">Cadastrar Contato</a>
+                                <a href="form_contact.php">Add Contact</a>
+                            </li>
+                            <li>
+                                <a href="list_contacts.php">Listar Contato</a>
+                                <a href="list_contacts.php">List Contacts</a>
+                           
+                        </ul>
+                    </li>
+                </ul>
+
+
+
 
                 <div class="clearfix"></div>
 
             </div>
 
+            <div class="clearfix"></div>
+
         </div>
+
+    </div>
         <!-- End Sidebar -->

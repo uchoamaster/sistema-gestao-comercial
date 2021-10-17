@@ -1,5 +1,4 @@
-        <!-- top bar navigation -->
-        <div class="headerbar">
+ <div class="headerbar">
 
             <!-- LOGO -->
             <div class="headerbar-left">
@@ -12,7 +11,8 @@
             <nav class="navbar-custom">
 
                 <ul class="list-inline float-right mb-0">
-
+                   
+ 
                     <li class="list-inline-item dropdown notif">
                         <a class="nav-link dropdown-toggle nav-user" data-toggle="dropdown" href="#" aria-haspopup="false" aria-expanded="false">
                             <img src="assets/images/avatars/admin.png" alt="Profile image" class="avatar-rounded">
@@ -52,4 +52,3 @@
             </nav>
 
         </div>
-        <!-- End Navigation -->

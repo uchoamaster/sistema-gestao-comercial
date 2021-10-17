@@ -1,12 +1,14 @@
-<?php include 'header.php' ?>
+<?php include 'header.php'; ?>
 
 <body class="adminbody">
 
     <div id="main">
 
-<?php include 'topbar.php' ?>
+        <!-- top bar navigation -->
+       <?php include 'topbar.php' ?>
+        <!-- End Navigation -->
 
-<?php include 'menu.php' ?>
+        <?php include 'menu.php'; ?>
 
         <div class="content-page">
 
@@ -26,7 +28,7 @@
                                 <div class="clearfix"></div>
                             </div>
 
-                          
+                        
 
                         </div>
                     </div>
@@ -72,11 +74,11 @@
                     </div>
                     <!-- end row -->
 
-
-   
-
+           
 
 
+
+                  
 
                 </div>
                 <!-- END container-fluid -->
@@ -86,4 +88,5 @@
 
         </div>
         <!-- END content-page -->
-<?php include 'footer.php' ?>
+
+        <?php include 'footer.php' ?>
