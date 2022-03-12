@@ -265,11 +265,11 @@
                         <ul class="list-unstyled">
                             <li>
                               <!--  <a href="form_contact.php">Cadastrar Contato</a> -->
-                                <a href="form_contact.php">Add Contact</a>
+                                <a href="form_contact.php">Adicionar Contatos</a>
                             </li>
                             <li>
                               <!--  <a href="list_contacts.php">Listar Contato</a> -->
-                                <a href="list_contacts.php">List Contacts</a>
+                                <a href="list_contacts.php">Listar Contatos</a>
                            
                         </ul>
                     </li>

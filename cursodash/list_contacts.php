@@ -13,7 +13,7 @@
 			var recipient5 = button.data('business')
 			var modal = $(this)
 			//insere os valores dentro dos inputs pelo id 
-			// modal.find('.modal-title').text('Verification Code ' + recipient)
+			modal.find('.modal-title').text('Editando contato de ID: ' + recipient)
 			modal.find('#recipient-id').val(recipient)
 			modal.find('#recipient-name').val(recipient2)
 			modal.find('#recipient-mail').val(recipient3)
@@ -31,7 +31,7 @@
 			var recipient = button.data('id-delete') 
 			var recipient2 = button.data('name-delete')
 			var modal = $(this)
-			// modal.find('.modal-title').text('Delete Code: ' + recipient)
+			modal.find('.modal-title').text('Apagando contato de ID: ' + recipient)
 			modal.find('#recipient-id-delete').val(recipient)
 			modal.find('#recipient-name-delete').val(recipient2)
 			
@@ -160,7 +160,7 @@
 																		<form action="edit_contact.php" method="post">
 																			<div class="form-group">
 																				<!-- <input type="text" class="form-control" id="recipient-id" style="display: none">-->
-																				<label for="message-text" class="col-form-label">Código</label>
+																				<label for="message-text" class="col-form-label">ID</label>
 																				<input type="text" class="form-control" id="recipient-id" readonly name="id">
 																			</div>
 																			<div class="form-group">
@@ -211,12 +211,12 @@
 																		<form action="delete_contact.php" method="post">
 																			<div class="form-group">
 																				<!-- <input type="text" class="form-control" id="recipient-id" style="display: none">-->
-																				<label for="message-text" class="col-form-label">Code</label>
+																				<label for="message-text" class="col-form-label">ID</label>
 																				<input type="text" class="form-control" id="recipient-id-delete" readonly name="id">
 																			</div>
 																			<div class="form-group">
 
-																				<label for="message-text" class="col-form-label">Name</label>
+																				<label for="message-text" class="col-form-label">Nome</label>
 																				<input type="text" class="form-control" id="recipient-name-delete" readonly name="name">
 																			</div>
 
