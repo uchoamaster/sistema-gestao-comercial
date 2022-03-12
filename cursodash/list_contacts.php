@@ -13,7 +13,7 @@
 			var recipient5 = button.data('business')
 			var modal = $(this)
 			//insere os valores dentro dos inputs pelo id 
-			modal.find('.modal-title').text('Verification Code ' + recipient)
+			// modal.find('.modal-title').text('Verification Code ' + recipient)
 			modal.find('#recipient-id').val(recipient)
 			modal.find('#recipient-name').val(recipient2)
 			modal.find('#recipient-mail').val(recipient3)
@@ -31,7 +31,7 @@
 			var recipient = button.data('id-delete') 
 			var recipient2 = button.data('name-delete')
 			var modal = $(this)
-			modal.find('.modal-title').text('Delete Code: ' + recipient)
+			// modal.find('.modal-title').text('Delete Code: ' + recipient)
 			modal.find('#recipient-id-delete').val(recipient)
 			modal.find('#recipient-name-delete').val(recipient2)
 			
@@ -65,7 +65,7 @@
 								<h1 class="main-title float-left">Dashboard</h1>
 								<ol class="breadcrumb float-right">
 									<li class="breadcrumb-item">Home</li>
-									<li class="breadcrumb-item active">List Contacts</li>
+									<li class="breadcrumb-item active">Lista de Contatos</li>
 								</ol>
 								<div class="clearfix"></div>
 							</div>
@@ -99,7 +99,7 @@
 						}	?>
 						<div class="card mb-3">
 							<div class="card-header">
-								<h3><i class="far fa-check-square"></i> List Contacts</h3>
+								<h3><i class="far fa-check-square"></i> Lista  de Contatos</h3>
 							</div>
 
 							<div class="card-body">
@@ -151,7 +151,7 @@
 															<div class="modal-dialog">
 																<div class="modal-content">
 																	<div class="modal-header">
-																		<h5 class="modal-title" id="exampleModalLabel">New message</h5>
+																		<h5 class="modal-title" id="exampleModalLabel">Editando</h5>
 																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 																			<span aria-hidden="true">&times;</span>
 																		</button>
@@ -160,35 +160,35 @@
 																		<form action="edit_contact.php" method="post">
 																			<div class="form-group">
 																				<!-- <input type="text" class="form-control" id="recipient-id" style="display: none">-->
-																				<label for="message-text" class="col-form-label">Code</label>
+																				<label for="message-text" class="col-form-label">Código</label>
 																				<input type="text" class="form-control" id="recipient-id" readonly name="id">
 																			</div>
 																			<div class="form-group">
 
-																				<label for="message-text" class="col-form-label">Name</label>
+																				<label for="message-text" class="col-form-label">Nome</label>
 																				<input type="text" class="form-control" id="recipient-name"  name="name">
 																			</div>
 																			<div class="form-group">
 
-																				<label for="message-text" class="col-form-label">Mail</label>
+																				<label for="message-text" class="col-form-label">Email</label>
 																				<input type="text" class="form-control" id="recipient-mail"  name="mail">
 																			</div>
 																			<div class="form-group">
 
-																				<label for="message-text" class="col-form-label">Telephone</label>
+																				<label for="message-text" class="col-form-label">Telefone</label>
 																				<input type="text" class="form-control telefone" id="recipient-tel"  name="tel">
 																			</div>
 																			<div class="form-group">
 
-																				<label for="message-text" class="col-form-label">Business</label>
+																				<label for="message-text" class="col-form-label">Empresa</label>
 																				<input type="text" class="form-control" id="recipient-business" name="business">
 																			</div>
 																			
 
 																		</div>
 																		<div class="modal-footer">
-																			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-																			<button type="submit" class="btn btn-primary">Change</button>
+																			<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+																			<button type="submit" class="btn btn-primary">Alterar</button>
 																		</div>
 																	</form>
 																</div>
@@ -202,7 +202,7 @@
 															<div class="modal-dialog">
 																<div class="modal-content">
 																	<div class="modal-header">
-																		<h5 class="modal-title" id="exampleModalLabel">New message</h5>
+																		<h5 class="modal-title" id="exampleModalLabel">Deseja apagar este contato?</h5>
 																		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 																			<span aria-hidden="true">&times;</span>
 																		</button>
@@ -223,8 +223,8 @@
 
 																		</div>
 																		<div class="modal-footer">
-																			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-																			<button type="submit" class="btn btn-danger">Delete</button>
+																			<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+																			<button type="submit" class="btn btn-danger">Apagar</button>
 																		</div>
 																	</form>
 																</div>

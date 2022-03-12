@@ -2,7 +2,7 @@
 
             <!-- LOGO -->
             <div class="headerbar-left">
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <img alt="Logo" src="assets/images/logo.png" />
                     <span>Dashboard</span>
                 </a>
@@ -21,20 +21,20 @@
                             <!-- item-->
                             <div class="dropdown-item noti-title">
                                 <h5 class="text-overflow">
-                                    <small>Hello, admin</small>
+                                    <small>Olá, admin</small>
                                 </h5>
                             </div>
 
                             <!-- item-->
                             <a href="profile.html" class="dropdown-item notify-item">
                                 <i class="fas fa-user"></i>
-                                <span>Profile</span>
+                                <span>Perfil</span>
                             </a>
 
                             <!-- item-->
                             <a href="#" class="dropdown-item notify-item">
                                 <i class="fas fa-power-off"></i>
-                                <span>Logout</span>
+                                <span>Sair</span>
                             </a>
                         </div>
                     </li>
